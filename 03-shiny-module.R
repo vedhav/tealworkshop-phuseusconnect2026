@@ -16,6 +16,6 @@ ui <- div(
 )
 server <- function(input, output, session) {
   module_server("module_1", "Hello")
-  module_server("module_2", "Ahoy")
+  module_server("module_2", "Howdy")
 }
 shinyApp(ui, server)

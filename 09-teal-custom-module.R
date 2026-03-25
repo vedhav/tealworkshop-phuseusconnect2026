@@ -24,7 +24,7 @@ data <- teal_data() |>
 
 modules <- modules(
   tm_greeting(),
-  tm_greeting(label = "second module", greet = "Ahoy")
+  tm_greeting(label = "second module", greet = "Howdy")
 )
 
 app <- init(

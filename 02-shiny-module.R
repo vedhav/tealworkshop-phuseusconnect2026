@@ -16,6 +16,6 @@ ui <- div(
 )
 server <- function(input, output, session) {
   output$greeting_1 <- renderUI("Hello")
-  output$greeting_2 <- renderUI("Ahoy")
+  output$greeting_2 <- renderUI("Howdy")
 }
 shinyApp(ui, server)
