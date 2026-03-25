@@ -1,3 +1,3 @@
 install.packages(
-  c("teal", "teal.modules.general", "teal.modules.clinical")
+  c("plotly", "teal", "teal.modules.general", "teal.modules.clinical")
 )
