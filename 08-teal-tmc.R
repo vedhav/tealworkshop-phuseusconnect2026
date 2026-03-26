@@ -1,5 +1,5 @@
 library(teal)
-library(teal.module.clinical)
+library(teal.modules.clinical)
 # https://insightsengineering.github.io/teal.modules.clinical/latest-tag/reference/index.html
 
 data <- teal_data()
